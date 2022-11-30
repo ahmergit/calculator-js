@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <h1>Hello, world!</h1>
+
+    <div class="main bg-dark d-flex flex-column">
+        <h1 style="flex: 1;" class="text-white text-center">Calculator </h1>
+        <div style="flex: 1;" class="p-3 text-center input1">
+            <input  type="text" name="" id="display">
+        </div>
+        <div style="flex: 4;" class="text-center">
+            <button onclick="getBtnValue(1)" class="btn btn-warning custombtn fs-4 p-3">1</button>
+            <button onclick="getBtnValue(2)" class="btn btn-warning custombtn fs-4 p-3">2</button>
+            <button onclick="getBtnValue(3)" class="btn btn-warning custombtn fs-4 p-3">3</button>
+            <button onclick="getBtnValue(4)" class="btn btn-warning custombtn fs-4 p-3">4</button>
+            <button onclick="getBtnValue(5)" class="btn btn-warning custombtn fs-4 p-3">5</button>
+            <button onclick="getBtnValue(6)" class="btn btn-warning custombtn fs-4 p-3">6</button>
+            <button onclick="getBtnValue(7)" class="btn btn-warning custombtn fs-4 p-3">7</button>
+            <button onclick="getBtnValue(8)" class="btn btn-warning custombtn fs-4 p-3">8</button>
+            <button onclick="getBtnValue(9)" class="btn btn-warning custombtn fs-4 p-3">9</button>
+            <button onclick="getBtnValue(0)" class="btn btn-warning custombtn fs-4 p-3">0</button>
+            <button onclick="getBtnValue('.')" class="btn btn-warning custombtn fs-4 p-3">.</button>
+            <button onclick="getBtnValue('+')" class="btn btn-warning custombtn fs-4 p-3">+</button>
+            <button onclick="getBtnValue('-')" class="btn btn-warning custombtn fs-4 p-3">-</button>
+            <button onclick="getBtnValue('/')" class="btn btn-warning custombtn fs-4 p-3">/</button>
+            <button onclick="getBtnValue('*')" class="btn btn-warning custombtn fs-4 p-3">*</button>
+            <button onclick="calVal('=')" class="btn btn-success custombtn fs-4 p-3">=</button>
+            <button onclick="clearAll('C')" class="btn btn-light custombtn fs-4 p-3">C</button>
+
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+  </body>
+</html>

@@ -1,0 +1,12 @@
+.main{
+    width: 100%;
+    height: 100vh;
+}
+.custombtn{
+    width: 23%;
+    height: 9vh;
+    margin-bottom: 4px;
+}
+.input1{
+    width: 100%;
+}
